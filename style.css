@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+#main {
+    background-color: rgb(243, 243, 137);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width: 460px) {
+    #main {
+      margin: 0;
+    }
+  }
+#tittle{
+    text-align: center;
+    margin-bottom: 0px;
+}
+.texto-titulo {
+  text-align: center;
+  font-size: small;
+  margin-top:0px;
+}
+#image {
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;    
+}
+#img-caption {
+  text-align: center;
+  font-size: small;
+  margin-top:0px;
+}
+@media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+#tribute-info {
+    text-align: justify;
+    width: 1161px;
+    margin: 0 auto; 
+}
+h3 {
+    text-align: center;
+    margin-top: 0px;  
+}
